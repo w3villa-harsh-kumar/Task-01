@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Universal CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Section */
+.header__section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(80, 193, 242, 0.424);
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar .logo{
+    font-size: 32px;
+    color: rgb(7, 86, 156);
+    padding-left: 80px;
+}
+
+.navbar__links{
+    display: flex;
+    list-style: none;
+}
+
+.navbar__links .active{
+    color: rgba(8, 136, 205, 0.739);
+}
+
+.navbar__link{
+    text-decoration: none;
+    color: rgb(12, 64, 110);
+    margin: 0 16px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.header_button__container{
+    width: 13%;
+    margin-right: 60px;
+}
+
+.dropdown__container{
+    position: relative;
+}
+
+.dropdown{
+    list-style: none;
+    margin-top: 14px;
+    display: none;
+    position: absolute;
+    background-color: #eeeeee;
+    padding: 16px 30px;
+    border-radius: 3px;
+    width: 200px;
+}
+
+.dropdown__item{
+    padding: 8px 16px;
+    display: inline-block;
+}
+
+.btn{
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    background-color: rgba(0, 101, 151, 0.993);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Main Section */
+.main__container{
+    height: fit-content;
+    background-image: url(./assets/images/img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Upper Main Seaction */
+.upper__main__content{
+    padding: 130px 250px 75px;
+    text-align: center;
+}
+
+.upper__main__content .main__heading{
+    color: rgba(123, 180, 208, 0.993);
+    text-transform: capitalize;
+    font-size: 65px;
+}
+
+.upper__main__content .main__text{
+    font-size: 25px;
+    margin-top: 4px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.main__btn{
+    padding: 14px 50px;
+    font-size: 14px;
+}
+
+/* Lower Main Section */
+.lower__main__content{
+    display: flex;
+    padding: 40px;
+    margin: 0 90px;
+}
+
+.lower__main__content .box{
+    margin: 0 20px;
+    padding: 63px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px 4px #b4dbf0c0;
+    color: white;
+}
+
+.lower__main__content .box .box__logo i{
+    font-size: 35px;
+    color: #0182c8;
+    margin-bottom: 20px;
+}
+
+.lower__main__content .box .box__heading{
+    color: rgba(123, 180, 208, 0.993);
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.lower__main__content .box .box__text{
+    font-size: 18px;
+}
