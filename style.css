@@ -61,7 +61,7 @@
     margin-top: 14px;
     display: none;
     position: absolute;
-    background-color: #eeeeee;
+    background-color: #f2f0f0;
     padding: 16px 30px;
     border-radius: 3px;
     width: 200px;
@@ -70,6 +70,12 @@
 .dropdown__item{
     padding: 8px 16px;
     display: inline-block;
+}
+
+.dropdown__item:hover{
+    background-color: #0182c8;
+    border-radius: 5px;
+    color: #eeeeee;
 }
 
 .btn{
